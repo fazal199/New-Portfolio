@@ -48,7 +48,7 @@ const MobileNav = () => {
         </SheetTrigger>
         <SheetContent side="right" className="w-72 bg-sidebar p-6">
           <div className="flex flex-col items-center text-center mb-6">
-            <Avatar className="mb-3 h-20 w-20 ring-2 ring-primary/30">
+            <Avatar className="mb-3 h-20 w-20 ring-2 ring-border">
               <AvatarImage src={profilePhoto} alt="Alex Smith" />
               <AvatarFallback>AS</AvatarFallback>
             </Avatar>

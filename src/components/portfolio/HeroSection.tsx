@@ -27,7 +27,7 @@ const HeroSection = () => {
         <div className="animate-fade-in">
           <h1 className="mb-6 text-4xl font-bold leading-tight tracking-tight text-foreground md:text-5xl lg:text-6xl">
             Web Developer building{" "}
-            <span className="text-primary">scalable, user-focused</span>{" "}
+            <span className="text-foreground">scalable, user-focused</span>{" "}
             web applications
           </h1>
 
@@ -59,15 +59,15 @@ const HeroSection = () => {
           {/* Trust Line */}
           <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
             <div className="flex items-center gap-2">
-              <CheckCircle2 className="h-4 w-4 text-primary" />
+              <CheckCircle2 className="h-4 w-4 text-foreground" />
               <span>Full-stack</span>
             </div>
             <div className="flex items-center gap-2">
-              <CheckCircle2 className="h-4 w-4 text-primary" />
+              <CheckCircle2 className="h-4 w-4 text-foreground" />
               <span>Production-ready code</span>
             </div>
             <div className="flex items-center gap-2">
-              <CheckCircle2 className="h-4 w-4 text-primary" />
+              <CheckCircle2 className="h-4 w-4 text-foreground" />
               <span>Clean UI/UX</span>
             </div>
           </div>

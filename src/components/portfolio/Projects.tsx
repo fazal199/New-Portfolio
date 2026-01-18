@@ -47,14 +47,14 @@ const Projects = () => {
           {projects.map((project, index) => (
             <Card
               key={index}
-              className="group flex flex-col border-border bg-card transition-all duration-300 hover:border-primary/50 hover:shadow-xl"
+              className="group flex flex-col border-border bg-card transition-all duration-300 hover:border-foreground/30 hover:shadow-xl"
             >
               {/* Project Preview Placeholder */}
-              <div className="h-48 overflow-hidden rounded-t-lg bg-gradient-to-br from-primary/20 via-secondary to-muted">
+              <div className="h-48 overflow-hidden rounded-t-lg bg-gradient-to-br from-secondary via-muted to-secondary">
                 <div className="flex h-full items-center justify-center">
                   <div className="text-center">
-                    <div className="mx-auto mb-2 h-16 w-16 rounded-xl bg-primary/20 p-4">
-                      <div className="h-full w-full rounded bg-primary/40" />
+                    <div className="mx-auto mb-2 h-16 w-16 rounded-xl bg-foreground/10 p-4">
+                      <div className="h-full w-full rounded bg-foreground/20" />
                     </div>
                     <span className="text-sm text-muted-foreground">
                       Preview
