@@ -50,7 +50,7 @@ const Sidebar = () => {
     <aside className="fixed left-0 top-0 z-50 hidden h-screen w-72 flex-col border-r border-border bg-sidebar p-6 lg:flex">
       {/* Profile Section */}
       <div className="mb-8 flex flex-col items-center text-center">
-        <Avatar className="mb-4 h-28 w-28 ring-2 ring-primary/30 ring-offset-2 ring-offset-sidebar">
+        <Avatar className="mb-4 h-28 w-28 ring-2 ring-border ring-offset-2 ring-offset-sidebar">
           <AvatarImage src={profilePhoto} alt="Alex Smith" className="object-cover" />
           <AvatarFallback className="bg-secondary text-2xl font-semibold">AS</AvatarFallback>
         </Avatar>

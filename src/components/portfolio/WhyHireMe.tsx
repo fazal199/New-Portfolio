@@ -45,10 +45,10 @@ const WhyHireMe = () => {
           {features.map((feature, index) => (
             <Card
               key={index}
-              className="group border-border bg-card transition-all duration-300 hover:border-primary/50 hover:shadow-lg"
+              className="group border-border bg-card transition-all duration-300 hover:border-foreground/30 hover:shadow-lg"
             >
               <CardContent className="p-6">
-                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
+                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-secondary text-foreground transition-colors group-hover:bg-foreground group-hover:text-background">
                   <feature.icon className="h-6 w-6" />
                 </div>
                 <h3 className="mb-2 text-lg font-semibold text-foreground">

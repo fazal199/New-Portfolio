@@ -35,7 +35,7 @@ const Contact = () => {
                 href="mailto:yourname@email.com"
                 className="group flex flex-col items-center rounded-lg p-4 text-center transition-colors hover:bg-secondary"
               >
-                <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
+                <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-secondary text-foreground transition-colors group-hover:bg-foreground group-hover:text-background">
                   <Mail className="h-5 w-5" />
                 </div>
                 <span className="text-sm font-medium text-foreground">Email</span>
@@ -50,7 +50,7 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="group flex flex-col items-center rounded-lg p-4 text-center transition-colors hover:bg-secondary"
               >
-                <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
+                <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-secondary text-foreground transition-colors group-hover:bg-foreground group-hover:text-background">
                   <Linkedin className="h-5 w-5" />
                 </div>
                 <span className="text-sm font-medium text-foreground">LinkedIn</span>
@@ -63,7 +63,7 @@ const Contact = () => {
                 href="#"
                 className="group flex flex-col items-center rounded-lg p-4 text-center transition-colors hover:bg-secondary"
               >
-                <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary transition-colors group-hover:bg-primary group-hover:text-primary-foreground">
+                <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-secondary text-foreground transition-colors group-hover:bg-foreground group-hover:text-background">
                   <FileText className="h-5 w-5" />
                 </div>
                 <span className="text-sm font-medium text-foreground">Resume</span>

@@ -17,9 +17,9 @@ const buttonVariants = cva(
         link: "text-primary underline-offset-4 hover:underline",
         hero: "bg-primary text-primary-foreground hover:bg-primary/80 shadow-lg hover:shadow-[0_0_30px_hsl(263_70%_50%/0.5)] font-semibold",
         heroOutline: "border-2 border-primary/60 bg-transparent text-foreground hover:bg-primary/10 hover:border-primary font-semibold",
-        social: "bg-secondary/50 text-foreground hover:bg-primary hover:text-primary-foreground rounded-full",
+        social: "bg-secondary/50 text-foreground hover:bg-foreground hover:text-background rounded-full",
         nav: "bg-transparent text-muted-foreground hover:text-foreground hover:bg-secondary/50 justify-start",
-        navActive: "bg-primary/10 text-primary hover:bg-primary/20 justify-start font-medium",
+        navActive: "bg-secondary text-foreground hover:bg-secondary/80 justify-start font-medium",
       },
       size: {
         default: "h-10 px-4 py-2",

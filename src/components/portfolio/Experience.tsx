@@ -55,10 +55,10 @@ const Experience = () => {
             {experiences.map((exp, index) => (
               <Card
                 key={index}
-                className="relative border-border bg-card transition-all duration-300 hover:border-primary/30 md:ml-16"
+                className="relative border-border bg-card transition-all duration-300 hover:border-foreground/30 md:ml-16"
               >
                 {/* Timeline dot */}
-                <div className="absolute -left-[4.5rem] top-6 hidden h-4 w-4 rounded-full border-2 border-primary bg-background md:block" />
+                <div className="absolute -left-[4.5rem] top-6 hidden h-4 w-4 rounded-full border-2 border-foreground bg-background md:block" />
                 
                 <CardContent className="p-6">
                   <div className="mb-4 flex flex-wrap items-start justify-between gap-2">
@@ -66,7 +66,7 @@ const Experience = () => {
                       <h3 className="text-lg font-semibold text-foreground">
                         {exp.title}
                       </h3>
-                      <p className="flex items-center gap-2 text-primary">
+                      <p className="flex items-center gap-2 text-muted-foreground">
                         <Briefcase className="h-4 w-4" />
                         {exp.company}
                       </p>
@@ -81,7 +81,7 @@ const Experience = () => {
                         key={i}
                         className="flex items-start gap-2 text-sm text-muted-foreground"
                       >
-                        <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-primary" />
+                        <span className="mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-foreground" />
                         {highlight}
                       </li>
                     ))}
