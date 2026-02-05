@@ -16,23 +16,27 @@ const Contact = () => {
             learn, and grow with a strong engineering team.
           </p>
           <Button variant="hero" size="xl" asChild>
-            <a href="mailto:yourname@email.com">
-              <Mail className="h-5 w-5" />
-              Email Me
+            <a  href="https://www.linkedin.com/messaging/compose/?recipient=fazalhussain1&body=Hi%20Fazal%2C%0AI%20went%20through%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20potential%20opportunity.%20Let%E2%80%99s%20connect.">
+              
+            Start Conversation
             </a>
           </Button>
+           <div className="mt-8 flex items-center justify-center gap-2 text-sm text-muted-foreground">
+              <Clock className="h-4 w-4" />
+              <span>Usually responds within 24 hours</span>
+            </div>
         </div>
 
         {/* Contact Info */}
         <Card className="border-border bg-card">
           <CardContent className="p-8">
             <h3 className="mb-6 text-center text-xl font-semibold text-foreground">
-              Let's Connect
+             Want to connect? Don't Overthink, I am easy to talk!
             </h3>
 
             <div className="grid gap-6 sm:grid-cols-3">
               <a
-                href="mailto:yourname@email.com"
+                href="mailto:workwithfazal98@gmail.com"
                 className="group flex flex-col items-center rounded-lg p-4 text-center transition-colors hover:bg-secondary"
               >
                 <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-secondary text-foreground transition-colors group-hover:bg-foreground group-hover:text-background">
@@ -40,12 +44,12 @@ const Contact = () => {
                 </div>
                 <span className="text-sm font-medium text-foreground">Email</span>
                 <span className="text-sm text-muted-foreground">
-                  yourname@email.com
+                  workwithfazal98@email.com
                 </span>
               </a>
 
               <a
-                href="https://linkedin.com/in/yourname"
+                href="https://linkedin.com/in/fazalhussain1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex flex-col items-center rounded-lg p-4 text-center transition-colors hover:bg-secondary"
@@ -55,7 +59,7 @@ const Contact = () => {
                 </div>
                 <span className="text-sm font-medium text-foreground">LinkedIn</span>
                 <span className="text-sm text-muted-foreground">
-                  linkedin.com/in/yourname
+                  linkedin.com/in/fazalhussain1
                 </span>
               </a>
 
@@ -70,11 +74,7 @@ const Contact = () => {
                 <span className="text-sm text-muted-foreground">Download PDF</span>
               </a>
             </div>
-
-            <div className="mt-8 flex items-center justify-center gap-2 text-sm text-muted-foreground">
-              <Clock className="h-4 w-4" />
-              <span>Usually responds within 24 hours</span>
-            </div>
+           
           </CardContent>
         </Card>
       </div>

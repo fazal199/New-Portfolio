@@ -6,7 +6,7 @@ const features = [
     icon: Lightbulb,
     title: "Problem Solver",
     description:
-      "I convert complex business requirements into clean, maintainable solutions.",
+      "I convert business requirements into clean, maintainable solutions.",
   },
   {
     icon: Rocket,
@@ -22,9 +22,9 @@ const features = [
   },
   {
     icon: Users,
-    title: "Production-Focused",
+    title: "Team Player",
     description:
-      "Write scalable, readable code that fits real development teams.",
+      "Write clear code and work closely with the team to build things.",
   },
 ];
 
@@ -34,7 +34,7 @@ const WhyHireMe = () => {
       <div className="mx-auto max-w-6xl px-6 lg:px-8">
         <div className="mb-12 text-center">
           <h2 className="mb-4 text-3xl font-bold text-foreground md:text-4xl">
-            Why Hire Me
+            But, Why Hire Me?
           </h2>
           <p className="mx-auto max-w-2xl text-muted-foreground">
             What value will I bring to your team?

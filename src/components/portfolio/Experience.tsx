@@ -1,37 +1,32 @@
-import { Briefcase } from "lucide-react";
+import { Briefcase, Building2 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+
 
 const experiences = [
   {
-    title: "Senior Web Developer",
-    company: "Tech Company Inc.",
-    period: "2022 - Present",
+    title: "Web Designer & Developer",
+    company: "Enlightened - I.T Solutions Company",
+    period: "September 2025 - Present",
     highlights: [
-      "Led development of customer-facing dashboard serving 50K+ users",
-      "Implemented CI/CD pipelines reducing deployment time by 60%",
-      "Mentored junior developers and conducted code reviews",
+      "Conducted complete R&D for building a fleet tracking GPS software, including designing the High-Level Design (HLD) and Low-Level Design (LLD), laying the foundation for a scalable and efficient tracking system.",
+      "Built the login panel and inventory modules (Inward, Stock, Allocation, Outward) for a client’s GPS tracking app, helping the client manage their GPS seals easily and efficiently.",
+      "Improved the company’s CRM with follow-up counts, service tracking, search/sort, and form validation — helping track and close sales faster, boosting speed by 25% and UX by 40%.",
+      "Designed and built a 41-page high-converting website for the company’s client, who sells and exports medical equipment to countries like Dubai and South Africa."
+
     ],
   },
   {
-    title: "Full Stack Developer",
-    company: "Digital Agency",
-    period: "2020 - 2022",
+    title: "Full Stack Developer (Internship)",
+    company: "Symbiosis Systems Pvt Ltd",
+    period: "May 2024 - June 2024",
     highlights: [
-      "Built responsive web applications for enterprise clients",
-      "Integrated third-party APIs including payment gateways",
-      "Improved application performance by 40% through optimization",
+      " Developed a subscription countdown system (10 days → 0) so the company could automatically track expiries — increasing revenue and saving hours of manual follow-ups.",
+      "Added auto-restriction after subscription expiry, ensuring clients can’t use the software without renewal — reducing manual checks and boosting the company’s control over renewals.",
+
+      "Built the Inward and Order modules in an inventory system, helping the company deliver a faster solution to their client — improving UX by 40% and overall speed by 20%.",
     ],
-  },
-  {
-    title: "Frontend Developer",
-    company: "Startup Studio",
-    period: "2018 - 2020",
-    highlights: [
-      "Developed UI components using React and TypeScript",
-      "Collaborated with designers to implement pixel-perfect designs",
-      "Contributed to open-source component libraries",
-    ],
-  },
+  }
 ];
 
 const Experience = () => {
@@ -40,10 +35,10 @@ const Experience = () => {
       <div className="mx-auto max-w-4xl px-6 lg:px-8">
         <div className="mb-12 text-center">
           <h2 className="mb-4 text-3xl font-bold text-foreground md:text-4xl">
-            Experience
+            Practical Experience
           </h2>
-          <p className="mx-auto max-w-2xl text-muted-foreground">
-            A track record of building impactful solutions
+          <p className="mx-auto text-xl max-w-2xl text-muted-foreground">
+            Built by working directly on real features and fixing issues.
           </p>
         </div>
 
@@ -59,15 +54,15 @@ const Experience = () => {
               >
                 {/* Timeline dot */}
                 <div className="absolute -left-[4.5rem] top-6 hidden h-4 w-4 rounded-full border-2 border-foreground bg-background md:block" />
-                
+
                 <CardContent className="p-6">
                   <div className="mb-4 flex flex-wrap items-start justify-between gap-2">
-                    <div>
+                    <div className=" space-y-5 lg:space-y-2">
                       <h3 className="text-lg font-semibold text-foreground">
                         {exp.title}
                       </h3>
                       <p className="flex items-center gap-2 text-muted-foreground">
-                        <Briefcase className="h-4 w-4" />
+                        <Building2 className="h-5 w-5" />
                         {exp.company}
                       </p>
                     </div>
@@ -89,6 +84,20 @@ const Experience = () => {
                 </CardContent>
               </Card>
             ))}
+            <div className="mb-8 flex flex-wrap justify-center gap-4">
+            <a href="https://www.linkedin.com/messaging/compose/?recipient=fazalhussain1&body=Hi%20Fazal%2C%0AI%20went%20through%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20potential%20opportunity.%20Let%E2%80%99s%20connect.
+">
+              <Button
+                variant="hero"
+                size="xl"
+              // onClick={() => scrollToSection("contact")}
+              >
+               
+                Contact Fazal
+              </Button>
+
+            </a>
+          </div>
           </div>
         </div>
       </div>

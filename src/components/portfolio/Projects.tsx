@@ -2,31 +2,37 @@ import { ExternalLink, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-
+import imaginifyImg from  "@/assets/projectsimg/imaginify.png"
+import eventifyImg from  "@/assets/projectsimg/eventify.png"
+import movixImg from  "@/assets/projectsimg/movix.png"
 const projects = [
   {
     title: "Event Management System",
+    imgUrl: eventifyImg,
     description:
       "A full-stack platform enabling users to discover, register, and manage events with role-based access for admins and organizers.",
     tech: ["React", "Node.js", "MongoDB", "Razorpay", "Tailwind"],
-    liveUrl: "#",
-    githubUrl: "#",
+    liveUrl: "https://college-event-management-system-frontend.onrender.com/",
+    githubUrl: "https://github.com/fazal199/college-event-management-system",
   },
   {
-    title: "E-Commerce Dashboard",
+    title: "Imaginify",
+    imgUrl: imaginifyImg,
     description:
-      "Comprehensive admin dashboard with real-time analytics, inventory management, and order tracking for online stores.",
-    tech: ["Next.js", "TypeScript", "PostgreSQL", "Stripe", "Recharts"],
-    liveUrl: "#",
-    githubUrl: "#",
+      "AI-powered image editing web app that allows users to restore, enhance, and modify images through a simple, user-friendly interface.",
+     
+    tech: ["Next.js", "TypeScript", "MongoDB", "Clerk", "Cloudinary"],
+    liveUrl: "https://imaginify-sooty-kappa.vercel.app/",
+    githubUrl: "https://github.com/fazal199/imaginify",
   },
   {
-    title: "Task Collaboration App",
+    title: "Movix",
+    imgUrl: movixImg,
     description:
-      "Team productivity tool featuring real-time updates, project boards, and integrated chat for seamless collaboration.",
-    tech: ["React", "Firebase", "Tailwind", "Socket.io"],
-    liveUrl: "#",
-    githubUrl: "#",
+      "Movix allows users to browse movies and TV shows, view detailed information, and explore trending content in real time through a fast, clean interface. ",
+    tech: ["React", "TMDB Api", "Tailwind", "Redux","Axios"],
+    liveUrl: "https://movix-movie-website-xi.vercel.app/",
+    githubUrl: "https://github.com/fazal199/movix-movie-website",
   },
 ];
 
@@ -52,14 +58,7 @@ const Projects = () => {
               {/* Project Preview Placeholder */}
               <div className="h-48 overflow-hidden rounded-t-lg bg-gradient-to-br from-secondary via-muted to-secondary">
                 <div className="flex h-full items-center justify-center">
-                  <div className="text-center">
-                    <div className="mx-auto mb-2 h-16 w-16 rounded-xl bg-foreground/10 p-4">
-                      <div className="h-full w-full rounded bg-foreground/20" />
-                    </div>
-                    <span className="text-sm text-muted-foreground">
-                      Preview
-                    </span>
-                  </div>
+                      <img src={project.imgUrl}className="  h-full w-full object-cover object-left-top" alt="" />
                 </div>
               </div>
 

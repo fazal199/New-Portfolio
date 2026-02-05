@@ -17,18 +17,18 @@ const Index = () => {
 
       {/* Main Content */}
       <main className="lg:ml-72">
-        <div className="pt-16 lg:pt-0">
+        <div className=" lg:pt-0">
           <HeroSection />
-          <WhyHireMe />
           <Experience />
           <Projects />
+          <WhyHireMe />
           <Contact />
 
           {/* Footer */}
           <footer className="border-t border-border bg-background py-8">
             <div className="mx-auto max-w-6xl px-6 text-center lg:px-8">
               <p className="text-sm text-muted-foreground">
-                © {new Date().getFullYear()} Alex Smith. Built with React & Tailwind.
+                © {new Date().getFullYear()} Fazal Hussain. Built with React & Tailwind.
               </p>
             </div>
           </footer>
