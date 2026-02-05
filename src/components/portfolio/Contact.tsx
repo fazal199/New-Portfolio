@@ -64,7 +64,9 @@ const Contact = () => {
               </a>
 
               <a
-                href="#"
+                
+                download
+                href="/fazalhussain-resume.pdf"
                 className="group flex flex-col items-center rounded-lg p-4 text-center transition-colors hover:bg-secondary"
               >
                 <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-secondary text-foreground transition-colors group-hover:bg-foreground group-hover:text-background">
