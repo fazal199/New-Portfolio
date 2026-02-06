@@ -81,10 +81,12 @@ const MobileNav = () => {
             ))}
           </nav>
 
-          <Button variant="hero" className="mt-6 w-full" onClick={() => scrollToSection("contact")}>
-            
-            Contact Fazal
-          </Button>
+          <a href="https://www.linkedin.com/messaging/compose/?recipient=fazalhussain1&body=Hi%20Fazal%2C%0AI%20went%20through%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20potential%20opportunity.%20Let%E2%80%99s%20connect.">
+            <Button variant="hero" className="mt-6 w-full" onClick={() => scrollToSection("contact")}>
+              
+              Contact Fazal
+            </Button>
+          </a>
         </SheetContent>
       </Sheet>
     </header>
