@@ -9,12 +9,17 @@ const experiences = [
     company: "Enlightened - I.T Solutions Company",
     period: "September 2025 - Present",
     highlights: [
-      "Conducted complete R&D for building a fleet tracking GPS software, including designing the High-Level Design (HLD) and Low-Level Design (LLD), laying the foundation for a scalable and efficient tracking system.",
-      "Built the login panel and inventory modules (Inward, Stock, Allocation, Outward) for a client’s GPS tracking app, helping the client manage their GPS seals easily and efficiently.",
-      "Improved the company’s CRM with follow-up counts, service tracking, search/sort, and form validation — helping track and close sales faster, boosting speed by 25% and UX by 40%.",
-      "Designed and built a 41-page high-converting website for the company’s client, who sells and exports medical equipment to countries like Dubai and South Africa."
+      "Led end-to-end development and technical research for scalable web applications using the MERN stack and Next.js, including system architecture, HLD, and LLD design.",
 
-    ],
+      "Designed and implemented secure authentication, role-based access control, and internal dashboards for managing complex application workflows.",
+
+      "Built multiple data-driven modules with CRUD operations, API integrations, validation, and optimized data handling for performance and maintainability.",
+
+      "Improved existing applications by enhancing UI/UX, optimizing frontend and backend performance, and refining overall system usability.",
+
+      "Developed multi-page, conversion-focused websites using Next.js with emphasis on SEO, responsiveness, and reusable component architecture.",
+
+    ]
   },
   {
     title: "Full Stack Developer (Internship)",
@@ -85,19 +90,19 @@ const Experience = () => {
               </Card>
             ))}
             <div className="mb-8 flex flex-wrap justify-center gap-4">
-            <a href="https://www.linkedin.com/messaging/compose/?recipient=fazalhussain1&body=Hi%20Fazal%2C%0AI%20went%20through%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20potential%20opportunity.%20Let%E2%80%99s%20connect.
+              <a href="https://www.linkedin.com/messaging/compose/?recipient=fazalhussain1&body=Hi%20Fazal%2C%0AI%20went%20through%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20potential%20opportunity.%20Let%E2%80%99s%20connect.
 ">
-              <Button
-                variant="hero"
-                size="xl"
-              // onClick={() => scrollToSection("contact")}
-              >
-               
-                Contact Fazal
-              </Button>
+                <Button
+                  variant="hero"
+                  size="xl"
+                // onClick={() => scrollToSection("contact")}
+                >
 
-            </a>
-          </div>
+                  Contact Fazal
+                </Button>
+
+              </a>
+            </div>
           </div>
         </div>
       </div>
