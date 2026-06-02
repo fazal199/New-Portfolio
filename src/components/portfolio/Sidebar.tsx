@@ -15,7 +15,7 @@ const navItems = [
 const socialLinks = [
   { href: "https://linkedin.com/in/fazalhussain1", icon: Linkedin, label: "LinkedIn" },
   { href: "https://github.com/fazal199", icon: Github, label: "GitHub" },
-  { href: "mailto:workwithfazal98@gmail.com?subject=Opportunity%20Discussion&body=Hello%20Fazal,%0D%0A%0D%0AI%20came%20across%20your%20profile%20and%20would%20like%20to%20discuss%20a%20potential%20opportunity%20with%20you.%20Please%20let%20me%20know%20a%20convenient%20time%20to%20connect.%0D%0A%0D%0ABest%20regards,", icon: Mail, label: "Email" },
+  { href: "mailto:workwithfazal98@gmail.com?subject=Opportunity%20Discussion&body=Hello%20Fazal,%0D%0A%0D%0AI%20came%20across%20your%20profile%20and%20would%20like%20to%20discuss%20a%20potential%20opportunity%20with%20you.%20Kindly%20let%20me%20know%20a%20convenient%20time%20to%20connect.%0D%0A%0D%0ABest%20regards,", icon: Mail, label: "Email" },
 ];
 
 const Sidebar = () => {

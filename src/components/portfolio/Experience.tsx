@@ -26,7 +26,7 @@ const experiences = [
     company: "Symbiosis Systems Pvt Ltd",
     period: "May 2024 - June 2024",
     highlights: [
-      " Developed a subscription countdown system (10 days → 0) so the company could automatically track expiries — increasing revenue and saving hours of manual follow-ups.",
+      "Developed a subscription countdown system (10 days → 0) so the company could automatically track expiries — increasing revenue and saving hours of manual follow-ups.",
       "Added auto-restriction after subscription expiry, ensuring clients can’t use the software without renewal — reducing manual checks and boosting the company’s control over renewals.",
 
       "Built the Inward and Order modules in an inventory system, helping the company deliver a faster solution to their client — improving UX by 40% and overall speed by 20%.",

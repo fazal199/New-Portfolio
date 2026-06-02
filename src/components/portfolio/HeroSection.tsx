@@ -26,7 +26,7 @@ const HeroSection = () => {
       <div className="relative z-10 mx-auto text-center max-w-4xl px-6 py-0 lg:py-20 lg:px-8">
         <div className="animate-fade-in  space-y-10">
           <h1 className="mb-6 text-[24px] leading-[1.7] font-bold xl:leading-tight tracking-tight text-foreground md:text-5xl lg:text-5xl lg:tracking-wide lg:leading-[1.2]">
-           I help teams in building <br /> web applications without unnecessary friction
+           I help teams in building <br /> web applications without <br /> mess and friction
           </h1>
 
           <p className="mb-8 text-lg text-muted-foreground md:text-xl">

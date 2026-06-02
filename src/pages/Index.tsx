@@ -28,7 +28,7 @@ const Index = () => {
           <footer className="border-t border-border bg-background py-8">
             <div className="mx-auto max-w-6xl px-6 text-center lg:px-8">
               <p className="text-sm text-muted-foreground">
-                © {new Date().getFullYear()} Fazal Hussain. Built with React & Tailwind.
+                © {new Date().getFullYear()} Built with 💜 by <a href="https://linkedin.com/in/fazalhussain1" target="_blank">Fazal Hussain</a> — fast and clean.
               </p>
             </div>
           </footer>

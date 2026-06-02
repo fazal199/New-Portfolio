@@ -23,7 +23,7 @@ const Contact = () => {
           </Button>
            <div className="mt-8 flex items-center justify-center gap-2 text-sm text-muted-foreground">
               <Clock className="h-4 w-4" />
-              <span>Usually responds within 24 hours</span>
+              <span>Usually responds within 6 hours</span>
             </div>
         </div>
 
@@ -36,7 +36,7 @@ const Contact = () => {
 
             <div className="grid gap-6 sm:grid-cols-3">
               <a
-                href="mailto:workwithfazal98@gmail.com"
+                href="mailto:workwithfazal98@gmail.com?subject=Opportunity%20Discussion&body=Hello%20Fazal,%0D%0A%0D%0AI%20came%20across%20your%20profile%20and%20would%20like%20to%20discuss%20a%20potential%20opportunity%20with%20you.%20Kindly%20let%20me%20know%20a%20convenient%20time%20to%20connect.%0D%0A%0D%0ABest%20regards,"
                 className="group flex flex-col items-center rounded-lg p-4 text-center transition-colors hover:bg-secondary"
               >
                 <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-full bg-secondary text-foreground transition-colors group-hover:bg-foreground group-hover:text-background">
