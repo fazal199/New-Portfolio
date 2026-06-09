@@ -9,16 +9,11 @@ const experiences = [
     company: "Enlightened - I.T Solutions Company",
     period: "September 2025 - Present",
     highlights: [
-      "Led end-to-end development and technical research for scalable web applications using the MERN stack and Next.js, including system architecture, HLD, and LLD design.",
-
-      "Designed and implemented secure authentication, role-based access control, and internal dashboards for managing complex application workflows.",
-
-      "Built multiple data-driven modules with CRUD operations, API integrations, validation, and optimized data handling for performance and maintainability.",
-
-      "Improved existing applications by enhancing UI/UX, optimizing frontend and backend performance, and refining overall system usability.",
-
-      "Developed multi-page, conversion-focused websites using Next.js with emphasis on SEO, responsiveness, and reusable component architecture.",
-
+      "Engineered scalable full-stack web applications using MERN stack and Next.js, improving application performance by 30% and enhancing user experience by 25%",
+      "Designed and developed secure, high-performance REST APIs with strong authentication and authorization, ensuring reliable data flow across systems",
+      "Optimized database design and queries in MySQL and PostgreSQL, reducing response time by 40% and improving overall system efficiency",
+      "Built real-time data systems using WebSockets and deployed services with Docker, increasing system reliability and reducing downtime",
+      "Integrated IoT devices such as GPS trackers and Bluetooth gateways to build a real-time data tracking system, ensuring reliable data transmission and smooth system operation"
     ]
   },
   {
