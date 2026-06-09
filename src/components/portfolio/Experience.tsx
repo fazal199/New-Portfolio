@@ -9,7 +9,7 @@ const experiences = [
     company: "Enlightened - I.T Solutions Company",
     period: "September 2025 - Present",
     highlights: [
-      "Engineered scalable full-stack web applications using MERN stack and Next.js, improving application performance by 30% and enhancing user experience by 25%",
+      "Built scalable full-stack web applications using MERN stack and Next.js, improving application performance by 30% and enhancing user experience by 25%",
       "Designed and developed secure, high-performance REST APIs with strong authentication and authorization, ensuring reliable data flow across systems",
       "Optimized database design and queries in MySQL and PostgreSQL, reducing response time by 40% and improving overall system efficiency",
       "Built real-time data systems using WebSockets and deployed services with Docker, increasing system reliability and reducing downtime",
